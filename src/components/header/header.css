@@ -1,0 +1,52 @@
+header {
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.73)),
+    url('http://drive.google.com/uc?export=view&id=1iOP6ZKHNUkujUQXq7B7L-9Dq-vQKCDI1') center/cover fixed no-repeat;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header_intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_intro h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #F1EFDC;
+}
+
+.header_intro h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: darkgray;
+}
+
+/* **********Media Queries (Medium Devices)********* */
+@media screen and (max-width: 1024px) {
+    .header_container {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .header_intro {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-block: 0rem 2.5rem;
+        text-align: center;
+    }
+}

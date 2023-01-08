@@ -1,0 +1,79 @@
+.container.media_container {
+    padding-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.media {
+    background: var(--color-medias-cards);
+    padding-bottom: 1rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    user-select: none;
+    flex-grow: 1;
+    gap: 1.5rem;
+    width: 45%;
+    max-height: 24rem;
+}
+
+.zainab_medias {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.zainab_medias>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 20%;
+}
+
+.zainab_medias>iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 20%;
+}
+
+.name_ft_zainab {
+    display: block;
+    margin: 0 auto;
+}
+
+.media_link {
+    margin-inline: 0 auto;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.media_link>a {
+    padding-left: .5rem;
+    color: var(--color-bold);
+}
+
+/* **********Media Queries (Medium Devices)********* */
+@media screen and (max-width: 1024px) {
+    .container.media_container {
+        width: 60%;
+    }
+    
+    .media {
+        flex-basis: 70%;
+    }
+}
+
+/* **********Media Queries (Small Devices)********* */
+@media screen and (max-width: 600px) {
+    .container.media_container {
+        width: var(--container-width-sm);
+    }
+}
