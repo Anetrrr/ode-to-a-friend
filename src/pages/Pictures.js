@@ -25,8 +25,8 @@ const data = [
   },
   {
     id: 5,
-    img: 'http://drive.google.com/uc?export=view&id=1vYLbeD_VSBVerGfzKuHrfK2TinPQdM2c',
-    name: 'Zainab with Abiodun'
+    img: 'http://drive.google.com/uc?export=view&id=1u8xbFKUD-k9oGUfA5sRfe1c5PxxRUlEe',
+    name: 'Zainab with Friends'
   },
   {
     id: 6,
