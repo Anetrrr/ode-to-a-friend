@@ -52,6 +52,7 @@
     font-weight: 300;
     display: block;
     margin: 0.8rem 0 0;
+    text-align: justify;
 }
 
 
@@ -63,6 +64,11 @@
     
     .testimonial{
         flex-basis: 70%;
+        padding: 1.5rem;
+    }
+    
+    .colleagues_avatar{
+        display: none;
     }
 }
 
