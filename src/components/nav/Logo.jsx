@@ -3,7 +3,7 @@ import React from 'react'
 const Logo = () => {
   return (
     <a href="#index.html" className='logo'>
-      <h2>ZA...</h2>
+      <h2>ZAY...</h2>
     </a>
   )
 }

@@ -11,21 +11,21 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#testimonials">Experience with Zainab</a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#testimonials">Working with Zainab</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer_socials">
-        <a href="https://facebook.com"><FaFacebook /></a>
+        <a href="https://www.facebook.com/zainaboyindamola.adedeji/"><FaFacebook /></a>
         <a href="https://instagram.com"><FiInstagram /></a>
         <a href="https://twitter.com"><IoLogoTwitter /></a>
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; ZAINAB ADEDEJI. All rights reserved.</small>
+        <small>&copy; ZAY | All rights reserved.</small>
         <div>
-          <small> Developed by Abiodun Olonade.</small>
+          <small> Designed and Developed for Zainab </small>
         </div>
       </div>
     </footer>
