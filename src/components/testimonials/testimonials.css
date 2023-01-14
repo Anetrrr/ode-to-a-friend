@@ -30,8 +30,7 @@
     user-select: none;
     box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
     transition: all 0.3s ease-in-out;
-    flex-grow: 1;
-    flex-basis: 45%;
+    flex-basis: 47%;
     display: flex;
     gap: 1.5rem;
 }

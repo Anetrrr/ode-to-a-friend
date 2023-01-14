@@ -30,6 +30,13 @@ const data = [
     position: 'Procurement Analyst/Logistics',
     review: 'Over this short period I have known you, you have been a very great person to me. You impacted me so much. Sometimes I wondered how I would have survived without your help when Daniel went on leave lol. Thank you for everything. Thank you for being warm and always pushing us to be a better analyst. I am really going to miss you alot. I wish you the very best and Gods favour on your new journey.'
   },  
+  {
+    id: 5,
+    avatar: 'http://drive.google.com/uc?export=view&id=1iOP6ZKHNUkujUQXq7B7L-9Dq-vQKCDI1',
+    name: 'Happiness Udufo',
+    position: 'Business Development Associate',
+    review: 'It was just about three weeks into my Noemdek journey so I was still very new, but she did something that created a lasting impression, a positive one. One day I came to work using public transportation and my worry was how I would get back home considering the difficulty in getting a vehicle in the area, Zainab arranged a means of transportation without me asking. She saw my need and probably my worry and gave a helping hand, allaying my fears, from that day my respect for her increased. What that tells me is that she cares about those around her and is perceptive. It is just unfortunate that we are only able to have such a short time working together.'
+  }  
 ]
 const Testimonials = () => {
   return (
