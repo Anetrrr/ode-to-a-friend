@@ -29,7 +29,7 @@ const Nav = () => {
         <Logo />
         <div className='nav_content'>
           <a href="#about"><FaUser /> About</a>
-          <a href="#testimonials"><FaFile /> Experience with Zainab</a>
+          <a href="#testimonials"><FaFile /> Working with Zainab</a>
           <a href="#contact"><AiFillMessage /> Contact</a>
         </div>
         <div className='nav_toggle'>
